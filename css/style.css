@@ -1,0 +1,169 @@
+@font-face {
+  font-family: "Netflix Sans";
+  font-weight: 100;
+  font-display: optional;
+  src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Th.woff2)
+      format("woff2"),
+    url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Th.woff)
+      format("woff");
+}
+
+body {
+  margin: 0;
+}
+.hero-section {
+  background-image: url("../Resources/navbar/image\ 1.png");
+  height: 100vh;
+  object-fit: fill;
+  background-repeat: no-repeat;
+}
+
+/* Header */
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header nav {
+  background-color: rgba(0, 0, 0, 0.253);
+  width: 90%;
+  padding: 15px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+header nav figure img {
+  width: 120px;
+}
+
+header nav div {
+  display: flex;
+  height: 24px;
+  width: 190px;
+  justify-content: space-around;
+  padding-bottom: 15px;
+}
+
+header nav div button {
+  margin: 0;
+  padding: 2px 4px;
+  /* margin-left: 9px; */
+  width: 74px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  font-size: 10px;
+  cursor: pointer;
+}
+
+header nav button figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 3px;
+}
+
+header nav button figure img {
+  width: 12px;
+}
+
+.language-btn {
+  background-color: rgba(0, 0, 0, 0.253);
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.562);
+  justify-content: space-between;
+}
+
+.signIn-btn {
+  background-color: rgba(229, 9, 20, 1);
+  color: #fff;
+  border: 0;
+}
+
+/* Hero */
+
+.hero-body {
+  margin-top: 30px;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-body article {
+  text-align: center;
+  color: #fff;
+}
+
+.hero-body article div h1 {
+  width: 90vh;
+  font-size: 40px;
+  margin: 0px;
+}
+
+.hero-body article div p {
+  font-size: 15px;
+}
+
+.hero-body article form {
+  margin: 20px 0;
+}
+
+.hero-body article form p {
+  font-size: 12px;
+}
+
+.hero-body article form input {
+  height: 28px;
+  width: 260px;
+  font-size: 10px;
+  color: #5f5f5f;
+  margin: 0;
+  padding: 5px;
+  border: 0;
+}
+
+.hero-body article form div {
+  padding-top: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-btn {
+  border: 0;
+  cursor: pointer;
+  margin: 0;
+  padding: 5px;
+  height: 38px;
+  width: 128px;
+  background-color: rgba(229, 9, 20, 1);
+  color: #fff;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-btn img {
+  height: 12px;
+  padding-left: 6px;
+  padding-bottom: 1px;
+}
+
+hr {
+  margin: 0;
+  padding: 0;
+  height: 6px;
+  background-color: rgba(34, 34, 34, 1);
+  border: 0;
+}
