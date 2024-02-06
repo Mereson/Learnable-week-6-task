@@ -12,7 +12,7 @@ body {
   margin: 0;
 }
 .hero-section {
-  background-image: url("../Resources/navbar/image\ 1.png");
+  background-image: url("../Resources/Landing-Page/navbar/image\ 1.png");
   height: 100vh;
   object-fit: fill;
   background-repeat: no-repeat;
@@ -99,30 +99,32 @@ header nav button figure img {
   align-items: center;
 }
 
-.hero-body article {
+.hero-body section {
   text-align: center;
   color: #fff;
 }
 
-.hero-body article div h1 {
+.hero-body section article h1 {
   width: 90vh;
   font-size: 40px;
   margin: 0px;
 }
 
-.hero-body article div p {
+.hero-body section article p {
   font-size: 15px;
 }
 
-.hero-body article form {
+.get-started {
   margin: 20px 0;
 }
 
-.hero-body article form p {
+.get-started p {
+  color: #fff;
+  text-align: center;
   font-size: 12px;
 }
 
-.hero-body article form input {
+.get-started input {
   height: 28px;
   width: 260px;
   font-size: 10px;
@@ -132,7 +134,7 @@ header nav button figure img {
   border: 0;
 }
 
-.hero-body article form div {
+.get-started div {
   padding-top: 2px;
   display: flex;
   justify-content: center;
@@ -166,4 +168,75 @@ hr {
   height: 6px;
   background-color: rgba(34, 34, 34, 1);
   border: 0;
+}
+
+.info-section {
+  background: rgba(0, 0, 0, 1);
+  color: #fff;
+}
+
+.info-section section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.info-section section article {
+  width: 340px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 30px;
+  padding-top: 30px;
+}
+
+.info-section section article h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+.info-section section article p {
+  font-size: 17px;
+}
+
+.info-section section figure {
+  padding: 0 30px;
+}
+
+.info-section section figure img {
+  width: 350px;
+}
+
+.faqs {
+  color: #fff;
+  background: rgba(0, 0, 0, 1);
+  padding: 20px;
+}
+
+.faqs article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.faqs article article {
+  margin-top: 10px;
+}
+
+.question {
+  display: flex;
+  width: 400px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7px 10px;
+  margin-bottom: 5px;
+  font-size: 13px;
+  background-color: rgba(48, 48, 48, 1);
+}
+
+.question figure img {
+  padding-top: 3px;
+  height: 15px;
 }
