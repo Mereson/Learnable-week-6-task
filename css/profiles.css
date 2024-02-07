@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background: rgba(20, 20, 20, 1);
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header nav {
+  width: 90%;
+  padding: 15px 10px;
+}
+
+header nav figure img {
+  width: 120px;
+}
+
+main article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+main article h1 {
+  color: #fff;
+  font-size: 2em;
+  font-weight: 400;
+}
+
+main article section {
+  display: flex;
+  padding: 20px 0;
+}
+
+main article section figure a {
+  padding: 15px;
+}
+
+main article section figure img {
+  width: 110px;
+}
+
+main article section figure figcaption {
+  text-align: center;
+  color: rgba(109, 109, 110, 0.7);
+  padding-top: 5px;
+  transition: 500ms;
+}
+
+main article section figure:hover figcaption {
+  color: #a0a0a0;
+}
+
+button {
+  color: rgba(128, 128, 128, 1);
+  padding: 5px 10px;
+  border: 1px solid rgba(128, 128, 128, 1);
+  background-color: transparent;
+  cursor: pointer;
+  transition: 500ms;
+}
+
+button:hover {
+  color: #b3b1b1;
+}
