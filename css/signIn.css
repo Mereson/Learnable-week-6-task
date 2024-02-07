@@ -1,0 +1,225 @@
+* {
+  margin: o;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("../Resources/Login-Page/image-2.jpg");
+  object-fit: fill;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.253);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header nav {
+  width: 90%;
+  padding: 15px 10px;
+}
+
+header nav figure img {
+  width: 120px;
+}
+
+.signIn-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signIn-section section {
+  background: rgba(0, 0, 0, 0.75);
+  width: 290px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.signIn-section section form {
+  margin-top: 10px;
+  width: 202px;
+}
+
+.signIn-section section form h1 {
+  font-size: 19px;
+}
+
+.signIn-section section form input {
+  width: 180px;
+  background: rgba(51, 51, 51, 1);
+  border: 0;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 10px;
+  padding: 9px 11px;
+  margin-bottom: 10px;
+}
+
+.signIn-section section form div {
+  margin: 16px 0;
+}
+
+.signIn-section section form div button {
+  width: 202px;
+  border: 0;
+  border-radius: 4px;
+  padding: 8px 11px;
+  font-size: 12px;
+  cursor: pointer;
+  font-weight: 700;
+  color: #fff;
+  background: rgba(229, 9, 20, 1);
+  transition: 500ms;
+}
+
+.signIn-section section form div button:hover {
+  background-color: rgb(255, 0, 0);
+  font-size: 13px;
+}
+
+.signIn-section section form div span {
+  display: flex;
+  font-size: 10px;
+  font-weight: 700;
+  justify-content: space-between;
+  padding-left: 10px;
+}
+
+.signIn-section section form div span p {
+  cursor: pointer;
+  color: rgba(179, 179, 179, 1);
+}
+
+.signIn-section section article {
+  width: 202px;
+  color: rgba(115, 115, 115, 1);
+  margin-top: 10px;
+  margin-bottom: 70px;
+}
+
+.signIn-section section article div {
+  display: flex;
+  font-size: 10px;
+  font-weight: 600;
+  align-items: center;
+}
+
+.signIn-section section article div figure {
+  padding-right: 10px;
+}
+
+.signIn-section section article div figure img {
+  width: 16px;
+}
+
+.signIn-section section article h5 {
+  padding: 10px 0;
+  margin: 0;
+  font-size: 11px;
+}
+
+.cta {
+  color: rgba(255, 255, 255, 1);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.signIn-section section article p {
+  padding: 0;
+  margin: 0;
+  font-size: 9px;
+  line-height: 12px;
+}
+
+.signIn-section section article p a {
+  color: rgba(0, 113, 235, 1);
+}
+
+/* Footer */
+
+.language-btn {
+  margin: 0;
+  padding: 2px 4px;
+  width: 74px;
+  display: flex;
+  align-items: center;
+  font-size: 10px;
+  cursor: pointer;
+  transition: 500ms;
+  background-color: rgba(0, 0, 0, 0.253);
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.562);
+  border-radius: 3px;
+  justify-content: space-between;
+}
+
+.language-btn figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 3px;
+}
+
+footer {
+  background: rgba(0, 0, 0, 0.75);
+  color: rgba(117, 117, 117, 1);
+  font-size: 11px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  margin-top: 60px;
+}
+
+footer article section {
+  display: flex;
+  padding-top: 5px;
+  padding-bottom: 20px;
+}
+
+footer article section div {
+  padding-right: 80px;
+}
+
+footer article section div li {
+  list-style: none;
+  padding: 5px 0;
+  cursor: pointer;
+  transition: 500ms;
+}
+
+footer article section div li:hover {
+  color: rgb(201, 194, 194);
+}
+
+.last-list {
+  padding-right: 0;
+}
+
+.footer-btn {
+  padding: 10px;
+  width: 86px;
+  justify-content: stretch;
+  margin-bottom: 10px;
+  color: rgba(117, 117, 117, 1);
+}

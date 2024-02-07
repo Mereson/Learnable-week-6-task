@@ -1,15 +1,6 @@
-@font-face {
-  font-family: "Netflix Sans";
-  font-weight: 100;
-  font-display: optional;
-  src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Th.woff2)
-      format("woff2"),
-    url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Th.woff)
-      format("woff");
-}
-
 body {
   margin: 0;
+  font-family: sans-serif;
 }
 .hero-section {
   background-image: url("../Resources/Landing-Page/navbar/image\ 1.png");
@@ -18,16 +9,19 @@ body {
   background-repeat: no-repeat;
 }
 
+a {
+  text-decoration: none;
+}
+
 /* Header */
 
 header {
+  background-color: rgba(0, 0, 0, 0.253);
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 header nav {
-  background-color: rgba(0, 0, 0, 0.253);
   width: 90%;
   padding: 15px 10px;
   display: flex;
@@ -52,27 +46,30 @@ header nav div {
   padding-bottom: 15px;
 }
 
-header nav div button {
+button {
   margin: 0;
   padding: 2px 4px;
-  /* margin-left: 9px; */
   width: 74px;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 3px;
   font-size: 10px;
   cursor: pointer;
+  transition: 500ms;
 }
 
-header nav button figure {
+header nav div button {
+  border-radius: 3px;
+}
+
+button figure {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 0 3px;
 }
 
-header nav button figure img {
+header nav div button figure img {
   width: 12px;
 }
 
@@ -87,6 +84,12 @@ header nav button figure img {
   background-color: rgba(229, 9, 20, 1);
   color: #fff;
   border: 0;
+  height: 24px;
+}
+
+.signIn-btn:hover {
+  background-color: rgb(255, 0, 0);
+  font-size: 12px;
 }
 
 /* Hero */
@@ -156,6 +159,11 @@ header nav button figure img {
   align-items: center;
 }
 
+.input-btn:hover {
+  background-color: rgb(255, 0, 0);
+  font-size: 13px;
+}
+
 .input-btn img {
   height: 12px;
   padding-left: 6px;
@@ -169,6 +177,8 @@ hr {
   background-color: rgba(34, 34, 34, 1);
   border: 0;
 }
+
+/* Info Section */
 
 .info-section {
   background: rgba(0, 0, 0, 1);
@@ -234,9 +244,59 @@ hr {
   margin-bottom: 5px;
   font-size: 13px;
   background-color: rgba(48, 48, 48, 1);
+  transition: 500ms;
+  cursor: pointer;
+}
+
+.question:hover {
+  background-color: rgb(68, 68, 68);
 }
 
 .question figure img {
   padding-top: 3px;
   height: 15px;
+}
+
+/* Footer */
+footer {
+  background: rgba(0, 0, 0, 1);
+  color: rgba(117, 117, 117, 1);
+  font-size: 11px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+}
+
+footer article section {
+  display: flex;
+  padding-top: 5px;
+  padding-bottom: 20px;
+}
+
+footer article section div {
+  padding-right: 50px;
+}
+
+footer article section div li {
+  list-style: none;
+  padding: 5px 0;
+  cursor: pointer;
+  transition: 500ms;
+}
+
+footer article section div li:hover {
+  color: rgb(201, 194, 194);
+}
+
+.last-list {
+  padding-right: 0;
+}
+
+.footer-btn {
+  padding: 10px;
+  width: 86px;
+  justify-content: stretch;
+  margin-bottom: 10px;
+  color: rgba(117, 117, 117, 1);
 }
