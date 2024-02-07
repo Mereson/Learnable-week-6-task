@@ -6,5 +6,6 @@ This Repository contains the tasks for Learnable Week 6
 
 - Built Landing page
 - Built Sign In Page
+- Built Profiles Page
 
 ---
