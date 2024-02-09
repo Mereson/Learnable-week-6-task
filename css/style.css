@@ -5,7 +5,7 @@ body {
 .hero-section {
   background-image: url("../Resources/Landing-Page/navbar/image\ 1.png");
   height: 100vh;
-  object-fit: fill;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
@@ -88,8 +88,7 @@ header nav div button figure img {
 }
 
 .signIn-btn:hover {
-  background-color: rgb(255, 0, 0);
-  font-size: 12px;
+  background-color: rgb(187, 0, 0);
 }
 
 /* Hero */
@@ -135,6 +134,7 @@ header nav div button figure img {
   margin: 0;
   padding: 5px;
   border: 0;
+  outline: 0;
 }
 
 .get-started div {
@@ -160,8 +160,7 @@ header nav div button figure img {
 }
 
 .input-btn:hover {
-  background-color: rgb(255, 0, 0);
-  font-size: 13px;
+  background-color: rgb(187, 0, 0);
 }
 
 .input-btn img {

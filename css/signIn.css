@@ -17,7 +17,7 @@ figure {
 
 body {
   background-image: url("../Resources/Login-Page/image-2.jpg");
-  object-fit: fill;
+  background-size: cover;
   background-repeat: no-repeat;
   margin: 0;
   padding: 0;
@@ -67,6 +67,7 @@ header nav figure img {
 .signIn-section section form input {
   width: 180px;
   background: rgba(51, 51, 51, 1);
+  outline: 0;
   border: 0;
   border-radius: 4px;
   color: #fff;
@@ -93,8 +94,7 @@ header nav figure img {
 }
 
 .signIn-section section form div button:hover {
-  background-color: rgb(255, 0, 0);
-  font-size: 13px;
+  background-color: rgb(187, 0, 0);
 }
 
 .signIn-section section form div span {
