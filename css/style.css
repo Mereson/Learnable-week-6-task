@@ -4,7 +4,7 @@ body {
 }
 .hero-section {
   background-image: url("../Resources/Landing-Page/navbar/image\ 1.png");
-  height: 100vh;
+  height: 747px;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -35,25 +35,26 @@ figure {
 }
 
 header nav figure img {
-  width: 120px;
+  width: 167px;
 }
 
 header nav div {
   display: flex;
-  height: 24px;
-  width: 190px;
-  justify-content: space-around;
-  padding-bottom: 15px;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding-bottom: 10px;
 }
 
 button {
   margin: 0;
   padding: 2px 4px;
-  width: 74px;
+  width: 94px;
+  height: 36px;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 10px;
+  font-size: 14px;
   cursor: pointer;
   transition: 500ms;
 }
@@ -70,7 +71,7 @@ button figure {
 }
 
 header nav div button figure img {
-  width: 12px;
+  width: 11.67px;
 }
 
 .language-btn {
@@ -84,7 +85,7 @@ header nav div button figure img {
   background-color: rgba(229, 9, 20, 1);
   color: #fff;
   border: 0;
-  height: 24px;
+  height: 34px;
 }
 
 .signIn-btn:hover {
@@ -94,8 +95,7 @@ header nav div button figure img {
 /* Hero */
 
 .hero-body {
-  margin-top: 30px;
-  height: 80%;
+  height: 647px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -107,13 +107,16 @@ header nav div button figure img {
 }
 
 .hero-body section article h1 {
-  width: 90vh;
-  font-size: 40px;
+  width: 686px;
+  font-size: 64px;
+  line-height: 70.4px;
+  font-weight: 700;
   margin: 0px;
+  padding-top: 4px;
 }
 
 .hero-body section article p {
-  font-size: 15px;
+  font-size: 26px;
 }
 
 .get-started {
@@ -123,22 +126,21 @@ header nav div button figure img {
 .get-started p {
   color: #fff;
   text-align: center;
-  font-size: 12px;
+  font-size: 19px;
 }
 
 .get-started input {
-  height: 28px;
-  width: 260px;
-  font-size: 10px;
-  color: #5f5f5f;
+  height: 70px;
+  width: 500px;
+  font-size: 16px;
+  color: rgba(140, 140, 140, 1);
   margin: 0;
-  padding: 5px;
-  border: 0;
+  padding: 2px 7px;
+  border: 1px solid rgba(140, 140, 140, 1);
   outline: 0;
 }
 
 .get-started div {
-  padding-top: 2px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -146,17 +148,20 @@ header nav div button figure img {
 
 .input-btn {
   border: 0;
+  border-radius: 0 2px 2px 0;
   cursor: pointer;
   margin: 0;
-  padding: 5px;
-  height: 38px;
-  width: 128px;
+  margin-top: 2px;
+  padding: 37.5px 0;
+  height: 70px;
+  width: 247px;
   background-color: rgba(229, 9, 20, 1);
   color: #fff;
-  font-size: 12px;
+  font-size: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 15px;
 }
 
 .input-btn:hover {
@@ -164,15 +169,14 @@ header nav div button figure img {
 }
 
 .input-btn img {
-  height: 12px;
-  padding-left: 6px;
-  padding-bottom: 1px;
+  height: 20.36px;
+  width: 9.22px;
 }
 
 hr {
   margin: 0;
   padding: 0;
-  height: 6px;
+  height: 8px;
   background-color: rgba(34, 34, 34, 1);
   border: 0;
 }
@@ -182,45 +186,51 @@ hr {
 .info-section {
   background: rgba(0, 0, 0, 1);
   color: #fff;
+  height: 466px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .info-section section {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 40px 0;
+  width: 1100px;
+  height: 325.92;
 }
 
 .info-section section article {
-  width: 340px;
+  width: 595.05px;
+  height: 180px;
+  padding-top: 55px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 0 30px;
-  padding-top: 30px;
 }
 
 .info-section section article h1 {
-  font-size: 36px;
+  font-size: 50px;
+  width: 547px;
   margin: 0;
 }
 
 .info-section section article p {
-  font-size: 17px;
-}
-
-.info-section section figure {
-  padding: 0 30px;
+  width: 499px;
+  font-size: 26px;
 }
 
 .info-section section figure img {
-  width: 350px;
+  width: 530px;
 }
 
 .faqs {
   color: #fff;
   background: rgba(0, 0, 0, 1);
-  padding: 20px;
+  height: 930px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .faqs article {
@@ -228,20 +238,29 @@ hr {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 790.16px;
 }
 
-.faqs article article {
-  margin-top: 10px;
+.faqs article h1 {
+  font-size: 50px;
+}
+
+.faqs article section {
+  height: 493.56px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
 }
 
 .question {
   display: flex;
-  width: 400px;
+  width: 815px;
+  height: 75px;
   justify-content: space-between;
   align-items: center;
-  padding: 7px 10px;
-  margin-bottom: 5px;
-  font-size: 13px;
+  padding: 0 30px;
+  font-size: 26px;
   background-color: rgba(48, 48, 48, 1);
   transition: 500ms;
   cursor: pointer;
@@ -252,15 +271,14 @@ hr {
 }
 
 .question figure img {
-  padding-top: 3px;
-  height: 15px;
+  height: 25px;
 }
 
 /* Footer */
 footer {
   background: rgba(0, 0, 0, 1);
   color: rgba(117, 117, 117, 1);
-  font-size: 11px;
+  font-size: 16px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -269,33 +287,351 @@ footer {
 
 footer article section {
   display: flex;
-  padding-top: 5px;
-  padding-bottom: 20px;
+  gap: 150px;
 }
 
-footer article section div {
-  padding-right: 50px;
-}
-
-footer article section div li {
-  list-style: none;
-  padding: 5px 0;
+footer article section div p {
+  line-height: 20.43px;
   cursor: pointer;
   transition: 500ms;
 }
 
-footer article section div li:hover {
+footer article section div p:hover {
   color: rgb(201, 194, 194);
 }
 
-.last-list {
-  padding-right: 0;
+.footer-btn {
+  width: 132px;
+  height: 53px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: rgba(117, 117, 117, 1);
 }
 
-.footer-btn {
-  padding: 10px;
-  width: 86px;
-  justify-content: stretch;
-  margin-bottom: 10px;
-  color: rgba(117, 117, 117, 1);
+.footer-btn #globe {
+  width: 18px;
+}
+
+.footer-btn #dropdown {
+  width: 14px;
+}
+
+@media (max-width: 1200px) {
+  .hero-section header nav {
+    justify-content: space-around;
+  }
+  .info-section section {
+    padding: 20px;
+  }
+  .info-section section article {
+    width: 450px;
+  }
+  .info-section section article h1 {
+    font-size: 30px;
+    width: 347px;
+  }
+
+  .info-section section article p {
+    width: 399px;
+    font-size: 20px;
+  }
+
+  .info-section section figure img {
+    width: 430px;
+  }
+}
+
+@media (max-width: 900px) {
+  .hero-body section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero-body section article h1 {
+    font-size: 50px;
+    width: 500px;
+  }
+
+  .get-started p {
+    font-size: 15px;
+  }
+  .get-started input {
+    height: 50px;
+    width: 300px;
+    font-size: 14px;
+  }
+
+  .input-btn {
+    padding: 28px 0;
+    height: 50px;
+    width: 147px;
+    font-size: 15px;
+  }
+
+  .info-section section {
+    flex-wrap: wrap;
+  }
+  .info-section section article {
+    width: 450px;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+  }
+  .info-section section article h1 {
+    font-size: 30px;
+    width: 347px;
+    text-align: center;
+  }
+
+  .info-section section article p {
+    width: 399px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .info-section section figure img {
+    width: 330px;
+  }
+
+  .faqs {
+    height: 700px;
+  }
+
+  .faqs article {
+    height: 490.16px;
+  }
+
+  .faqs article h1 {
+    font-size: 30px;
+  }
+
+  .faqs article section {
+    height: 403.56px;
+  }
+
+  .question {
+    width: 415px;
+    height: 55px;
+    padding: 0 10px;
+    font-size: 16px;
+  }
+
+  .question figure img {
+    height: 18px;
+  }
+
+  footer {
+    padding: 30px 0;
+  }
+
+  footer article h2 {
+    font-size: 20px;
+  }
+
+  footer article section {
+    display: flex;
+    gap: 40px;
+  }
+
+  footer article section div p {
+    font-size: 9px;
+    line-height: 20.43px;
+    cursor: pointer;
+    transition: 500ms;
+  }
+
+  .footer-btn {
+    width: 100px;
+    height: 38px;
+    font-size: 12px;
+    gap: 5px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: rgba(117, 117, 117, 1);
+  }
+
+  .footer-btn #globe {
+    width: 12px;
+  }
+
+  .footer-btn #dropdown {
+    width: 9px;
+  }
+}
+
+@media (max-width: 500px) {
+  .hero-section header nav {
+    justify-content: space-between;
+  }
+
+  .hero-section {
+    height: 480px;
+  }
+  header nav figure img {
+    width: 100px;
+  }
+
+  header nav div {
+    gap: 3px;
+  }
+
+  .language-btn {
+    visibility: hidden;
+    height: 0px;
+    width: 0px;
+  }
+
+  .signIn-btn {
+    font-size: 10px;
+    height: 28px;
+    width: 75px;
+  }
+
+  .hero-body {
+    height: 447px;
+  }
+
+  .hero-body section article h1 {
+    font-size: 30px;
+    width: 300px;
+    line-height: 40px;
+    font-weight: 700;
+    padding-top: 4px;
+  }
+
+  .hero-body section article p {
+    font-size: 17px;
+  }
+
+  .get-started {
+    margin: 10px 0;
+  }
+
+  .get-started p {
+    font-size: 10px;
+  }
+
+  .input-btn img {
+    height: 10.36px;
+    width: 4.52px;
+  }
+
+  hr {
+    height: 5px;
+  }
+
+  .get-started input {
+    height: 35px;
+    width: 190px;
+    font-size: 10px;
+  }
+
+  .input-btn {
+    padding: 18px 0;
+    height: 42px;
+    width: 90px;
+    font-size: 10px;
+  }
+
+  /* Info Section */
+
+  .info-section {
+    height: 420px;
+  }
+  .info-section section {
+    height: 400px;
+    padding: 10px;
+  }
+
+  .info-section section article {
+    width: 300px;
+  }
+  .info-section section article h1 {
+    font-size: 25px;
+    width: 250px;
+  }
+
+  .info-section section article p {
+    width: 270px;
+    font-size: 15px;
+    font-weight: 300px;
+    text-align: center;
+  }
+
+  .info-section section figure img {
+    width: 270px;
+  }
+
+  .faqs {
+    height: 550px;
+  }
+
+  .faqs article {
+    height: 490.16px;
+  }
+
+  .faqs article h1 {
+    font-size: 20px;
+  }
+
+  .faqs article section {
+    height: 403.56px;
+  }
+
+  .question {
+    width: 295px;
+    height: 45px;
+    padding: 0 10px;
+    font-size: 12px;
+  }
+
+  .question figure img {
+    height: 15px;
+  }
+
+  footer {
+    padding: 30px 0;
+  }
+
+  footer article h2 {
+    font-size: 16px;
+  }
+
+  footer article section {
+    display: flex;
+    gap: 25px;
+  }
+
+  footer article section div p {
+    font-size: 7px;
+    line-height: 17.43px;
+  }
+
+  .footer-btn {
+    width: 75px;
+    height: 35px;
+    font-size: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    visibility: visible;
+  }
+
+  .footer-btn #globe {
+    width: 10px;
+  }
+
+  .footer-btn #dropdown {
+    width: 7px;
+  }
+  footer article {
+    font-size: 10px;
+  }
 }
