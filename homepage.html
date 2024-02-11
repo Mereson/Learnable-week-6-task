@@ -19,7 +19,7 @@
                             <img src="./Resources/Landing-Page/navbar/Logo.png" alt="Logo">
                         </figure>
                     </a>
-                    <div>
+                    <div class="nav-menu">
                         <p><strong>Ana Sayfa</strong></p>
                         <p>Diziler</p>
                         <p>Filmler</p>
@@ -27,7 +27,7 @@
                         <p>Listem</p>
                     </div>
                 </section>
-                <section class="right-nav">
+                <section class="right-nav ">
                     <figure>
                         <img src="./Resources/home-page/navbar/Search.png" alt="search icon">
                     </figure>
@@ -50,6 +50,47 @@
                         </figure>
                     </figure>
                 </section>
+                <figure class="menu-item">
+                    <img class="menu-btn" src="./Resources/home-page/navbar/menu.png" alt="">
+                </figure>
+                <aside class="sidebar">
+                    <article>
+                        <section class=" right-nav-aside">
+                            <figure>
+                                <img src="./Resources/home-page/navbar/Search.png" alt="search icon">
+                            </figure>
+                            <p>ÇOCUK</p>
+                            <figure>
+                                <img src="./Resources/home-page/navbar/GiftBox.png" alt="">
+                            </figure>
+                            <figure>
+                                <img src="./Resources/home-page/navbar/NotificationBell.png" alt="">
+                            </figure>
+                            <figure class="user-feature">
+                                <figure>
+                                    <a href="profiles.html">
+                                        <img src="./Resources/Profile-page/ProfilePicture (2).png" id="user-image"
+                                            alt="user image">
+                                    </a>
+                                </figure>
+                                <figure>
+                                    <img src="./Resources/Landing-Page/navbar/Vector.png" alt="Dropdown icon">
+                                </figure>
+                            </figure>
+                        </section>
+                        <figure class="close-item">
+                            <img class="close-btn" src="./Resources/home-page/navbar/close.png" alt="">
+                        </figure>
+                    </article>
+                    <div class="nav-menu-aside">
+                        <p><strong>Ana Sayfa</strong></p>
+                        <p>Diziler</p>
+                        <p>Filmler</p>
+                        <p>Yeni ve Popüler</p>
+                        <p>Listem</p>
+                    </div>
+
+                </aside>
             </nav>
         </header>
         <!-- Hero section -->
@@ -86,7 +127,7 @@
                 </article>
                 <section class="cards-section">
                     <h3>Netflix'te Popüler</h3>
-                    <section>
+                    <section class="main-section">
                         <section class="sub-section">
                             <figure>
                                 <img src="./Resources/home-page/hero-section/MoviePoster (5).png" alt="MoviePoster">
@@ -114,7 +155,7 @@
         <section class="categories">
             <section class="cards-section category">
                 <h3>Kemal, İzlemeye Devam Et</h3>
-                <section>
+                <section class="main-section">
                     <section class="sub-section">
                         <figure>
                             <img src="./Resources/home-page/category-one/MoviePoster.png" alt="MoviePoster">
@@ -140,7 +181,7 @@
         <section class="categories">
             <section class="cards-section category">
                 <h3>Gündemdekiler</h3>
-                <section>
+                <section class="main-section">
                     <section class="sub-section">
                         <figure>
                             <img src="./Resources/home-page/category-two/MoviePoster.png" alt="MoviePoster">
@@ -167,7 +208,7 @@
         <section class="categories">
             <section class="cards-section category">
                 <h3>Netflix Orijinal İçerikleri</h3>
-                <section class="larger-cards">
+                <section class="main-section larger-cards">
                     <section class="sub-section">
                         <figure>
                             <img src="./Resources/home-page/category-three/MoviePoster.png" alt="MoviePoster">
@@ -193,8 +234,8 @@
         <section class="categories top-list">
             <section class="cards-section category">
                 <h3>Türkiye'de Bugünün Top 10 Listesi</h3>
-                <section>
-                    <section class="sub-section">
+                <section class="main-section">
+                    <section class="sub-section top-list-items">
                         <figure class="top-list-item">
                             <img class="list-rank-1" src="./Resources/home-page/category-four/Rank - 01.png"
                                 alt="MoviePoster">
@@ -236,7 +277,7 @@
         <section class="categories" id="aile-category">
             <section class="cards-section category">
                 <h3>Yeniden İzle</h3>
-                <section>
+                <section class="main-section">
                     <figure id="first-card">
                         <img src="./Resources/home-page/category-five/MoviePoster.png" alt="MoviePoster">
                         <img id="arrow-icon-right" src="./Resources/home-page/category-five/Vector.png"
@@ -265,7 +306,7 @@
         <section class="categories last-category">
             <section class="cards-section category">
                 <h3>Listem</h3>
-                <section>
+                <section class="main-section">
                     <section class="sub-section">
                         <figure>
                             <img src="./Resources/home-page/category-six/MoviePoster.png" alt="MoviePoster">
@@ -345,6 +386,8 @@
             </article>
         </footer>
     </main>
+
+    <script src="./javascript/app.js"></script>
 </body>
 
 </html>
