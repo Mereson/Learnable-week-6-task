@@ -11,6 +11,7 @@ This Repository contains the tasks for Learnable Week 6
 
 - Responsive Design for Landing Page
 - Responsive Design for Sign In Page
+- Responsive Design for Profiles Page
 
 ---
 

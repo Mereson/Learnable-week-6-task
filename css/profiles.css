@@ -78,3 +78,83 @@ button:hover {
   color: #b3b1b1;
   background: rgb(36, 36, 36);
 }
+
+@media (max-width: 1300px) {
+  main article {
+    padding: 30px;
+    margin: 20px 0;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  main article h1 {
+    font-size: 54px;
+  }
+
+  main article section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+    margin: 10px 0;
+    gap: 30px;
+  }
+
+  main article section figure img {
+    width: 150px;
+  }
+
+  main article section figure figcaption {
+    font-size: 20px;
+  }
+
+  button {
+    padding: 10px 30px;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  header nav {
+    padding: 25px 30px;
+  }
+
+  header nav figure img {
+    width: 90px;
+  }
+
+  main article {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  main article h1 {
+    font-size: 30px;
+  }
+
+  main article section {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 0;
+    margin: 10px 0;
+  }
+
+  main article section figure img {
+    width: 100px;
+  }
+
+  main article section figure figcaption {
+    font-size: 15px;
+    padding-top: 20px;
+  }
+
+  button {
+    padding: 10px 30px;
+    font-size: 13px;
+  }
+}
