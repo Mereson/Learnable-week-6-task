@@ -9,6 +9,9 @@ This Repository contains the tasks for Learnable Week 6
 - Built Profiles Page
 - Built Home Page
 
+- Responsive Design for Landing Page
+- Responsive Design for Sign In Page
+
 ---
 
 ### Accessing the pages
